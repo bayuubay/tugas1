@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = 7000;
 
 app.get('/', function(req, res){
   res.send('Hello My name is Bayu from GET');
